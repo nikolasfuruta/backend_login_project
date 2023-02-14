@@ -1,16 +1,30 @@
-# "Node.js Tutorial - How to Build a Web Server"
+# Backend Login Project
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+This is the backend for the MERN stack Login Project
 
-**Description:**
+## Techs
 
-This repository shares the code applied during the Youtube tutorial. The tutorial is part of a [Node.js for Beginners Playlist](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw) on my channel.  
+- Express
+- Mongoose
+- bcrypt
+- jwt
 
-[YouTube Tutorial](https://youtu.be/3ZAKY-CDKog) for this repository.
+### Summary
 
-I suggest completing my [8 hour JavaScript course tutorial video](https://youtu.be/EfAl9bwzVZk) if you are new to Javascript.
+This project was built on Dave Gray's classes. The focus was on understanding how we can create a frontend and backend login system; 
+In the tutorial, I could understand:
+- how we configure express with logs;
+- how we set CORS;
+- how we connect the backend to the data base using mongoose;
+- how we create and use middlewares;
+- how we set credentials to permit only allowed origins;
+- how we set cors options;
+- why we create and use cookies;
+- how we create and use authorization middlewares;
+- how we encrypt a password;
+- how we create and use jwt;
+- how we implement CRUD operations;
 
-### Academic Honesty
 
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
-# backend_login_project
+
+
