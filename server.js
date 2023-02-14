@@ -27,6 +27,8 @@ app.use(logger)
 app.use(credentials);
 
 //Cross Origin Resource Sharing middleware
+// enable pre-flight across-the-board
+app.options('*', cors())
 //com o cors eu consigo controlar quem pode acessar o meu api
 app.use(cors(corsOptions))
 
