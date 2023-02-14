@@ -4,6 +4,7 @@
   "description": "Node.js Express tutorial",
   "main": "server.js",
   "scripts": {
+    "build": "npm run start",
     "start": "node main",
     "dev": "nodemon main"
   },
