@@ -10,7 +10,6 @@ const corsOptions = {
         }
     },
     optionsSuccessStatus: 200,
-    he
 }
 
 module.exports = corsOptions;
